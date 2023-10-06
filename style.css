@@ -8,3 +8,66 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+
+
+
+
+
+
+/* top player section styles starts */
+
+.main{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+.top-container{
+    background-color: #F3F1FF;
+    padding:  2.5rem 17rem;
+}
+
+.top-player{
+    padding: 1.88rem 2rem;
+    background-color: #fff;
+    /* width: 54rem; */
+    border-radius: 10px;
+}
+
+.top-player>h3{
+    color: #562EFF;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 1.8rem;
+    margin-top: 2.5rem;
+    background-color: #fff;
+    
+
+}
+
+.players>div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.players>div img{
+    height: 3.5rem;
+    width: 3.5rem;
+    
+}
+
+hr{
+    border: 1px solid #d1d1d1;
+    margin-top: 1.5rem;
+}
