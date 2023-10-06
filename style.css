@@ -34,7 +34,7 @@
     border-radius: 10px;
 }
 
-.top-player>h3{
+.section-title{
     color: #562EFF;
 font-family: Poppins;
 font-size: 1.5rem;
@@ -70,4 +70,51 @@ line-height: normal;
 hr{
     border: 1px solid #d1d1d1;
     margin-top: 1.5rem;
+}
+
+/* top player section styles ends */
+/* ------------------------------------------------------------------- */
+/* top blog section styles starts */
+
+
+
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1rem;
+}
+
+.blog-info img{
+    width: 14rem;
+    height: 7rem;
+}
+.blog-info{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.blog-title-info h3{
+    color: #000;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.125rem; /* 170% */
+}
+
+.top-blog>h3{
+    margin: 1.8rem 0;
+}
+
+.blog-author{
+    margin-top: 1rem;
+    color: #d1d1d1;
+}
+
+.blog-author a{
+    text-decoration: none;
+    color: #562eff;
+
 }
