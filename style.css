@@ -17,14 +17,11 @@
 
 /* top player section styles starts */
 
-.main{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-}
+
 .top-container{
     background-color: #F3F1FF;
     padding:  2.5rem 17rem;
+    padding-bottom: 0;
 }
 
 .top-player{
@@ -85,8 +82,8 @@ hr{
 }
 
 .blog-info img{
-    width: 14rem;
-    height: 7rem;
+    width: 10rem;
+    height: 6rem;
 }
 .blog-info{
     display: flex;
@@ -118,3 +115,102 @@ line-height: 2.125rem; /* 170% */
     color: #562eff;
 
 }
+
+
+/* top blog section styles ends*/
+/* ----------------------------------------------------------------------- */
+/*  leatest course section styles starts */
+.leatest-courses{
+  padding-top:  1.3rem;
+}
+.courses-info-container{
+    background-color: #fff;
+    padding: 1.8rem;
+    border-radius: 10px;
+}
+
+
+.courses-info-container>div{
+    background-color: #fff;
+    padding: 1.8rem;
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr); */
+    justify-content: space-between;
+}
+
+.courses-info-container>h3{
+    color: #562EFF;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: .69rem;
+}
+
+
+.course-detail{
+    height: 16rem;
+    width: 15rem;
+    border-radius: 10px;
+    padding: .6rem;
+}
+.course-detail .img{
+    height: 6.5rem;
+    width: 14rem;
+    margin-bottom: 1rem;
+}
+.course-detail img{
+    width: .7rem;
+    height: .7rem;
+}
+.course-detail h3{
+    color: #1E1E1E;
+font-size: 1.25213rem;
+margin-bottom: .4rem;
+
+}
+.course-detail p{
+    margin-bottom: .5rem;
+    color: #ED6B4F;
+    font-size: 0.91819rem;
+}
+
+
+
+.courses-info-container div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+.course-detail button{
+    width: 5.92663rem;
+height: 1.83644rem;
+flex-shrink: 0;
+border-radius: 0.91819rem;
+background: #FEE5DF;
+border: none;
+color: #ED6B4F;
+font-family: Open Sans;
+font-size: 0.91819rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+left: 3.9rem;
+
+
+}
+.course-detail button img{
+    width: 1.25213rem;
+height: 1.25213rem;
+flex-shrink: 0;
+position: relative;
+top: 2.8px;
+right: 3px;
+}
+
+
+
+
