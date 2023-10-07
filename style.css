@@ -214,3 +214,60 @@ right: 3px;
 
 
 
+/* ----------------------------------------
+
+    @media quearies
+------------------------------------------ */
+
+
+/* Mobile divice starts*/
+
+
+@media screen  and (max-width:688px) {
+    .top-container{
+        padding: 0;
+    }
+   .top-player{
+      width: 100%;
+    }
+.players{
+    grid-template-columns: repeat(1,1fr);
+
+     
+    
+}
+.players>div{
+    flex-direction: column;
+}
+.players>div>img{
+    width: 7rem ;
+    height:5rem
+} 
+
+.players>div>h5{
+    font-size: 1.5rem;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+.blog{
+ grid-template-columns: repeat(1,1fr);
+ align-items: center;
+ justify-items: center;
+}
+
+
+.blog-info  {
+    flex-direction: column;
+}
+.courses-info-container>div{
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+    
+}
+
+}
+
+
+/* Mobile divice ends*/
